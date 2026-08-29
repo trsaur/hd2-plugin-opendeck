@@ -1,0 +1,33 @@
+{
+  "Name": "Helldivers 2",
+  "Author": "TrSaur",
+  "Description": "Helldivers 2 Strategems",
+  "Version": "0.1.1",
+  "SDKVersion": 2,
+  "CodePathLin": "bin/run.sh",
+  "Icon": "images/assets/hd2",
+  "OS": [ { "Platform": "linux", "MinimumVersion": "1.0" } ],
+  "Actions": [
+    {
+      "UUID": "com.user.helldivers2.Orbital_Precision_Strike.key",
+      "Name": "Orbital Precision Strike",
+      "Tooltip": "Orbital Precision Strike",
+      "Icon": "images/orbitals/Orbital_Precision_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_Precision_Strike", "TitleMode": "NoChange" } ]
+    },
+    {
+      "UUID": "com.user.helldivers2.B-1_Supply_Pack.key",
+      "Name": "B-1 Supply Pack",
+      "Tooltip": "B-1 Supply Pack",
+      "Icon": "images/backpacks/B-1_Supply_Pack",
+      "States": [ { "Image": "images/backpacks/B-1_Supply_Pack", "TitleMode": "NoChange" } ]
+    },
+    {
+      "UUID": "com.user.helldivers2.Eagle_500kg_Bomb.key",
+      "Name": "Eagle 500kg Bomb",
+      "Tooltip": "Eagle 500kg Bomb",
+      "Icon": "images/eagles/Eagle_500kg_Bomb",
+      "States": [ { "Image": "images/eagles/Eagle_500kg_Bomb", "TitleMode": "NoChange" } ]
+    }
+  ]
+}
