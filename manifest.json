@@ -1,33 +1,643 @@
 {
   "Name": "Helldivers 2",
   "Author": "TrSaur",
-  "Description": "Helldivers 2 Strategems",
-  "Version": "0.1.1",
+  "Description": "Helldivers 2 Stratagems",
+  "Version": "0.1.10",
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
   "OS": [ { "Platform": "linux", "MinimumVersion": "1.0" } ],
   "Actions": [
     {
-      "UUID": "com.user.helldivers2.Orbital_Precision_Strike.key",
-      "Name": "Orbital Precision Strike",
-      "Tooltip": "Orbital Precision Strike",
-      "Icon": "images/orbitals/Orbital_Precision_Strike",
-      "States": [ { "Image": "images/orbitals/Orbital_Precision_Strike", "TitleMode": "NoChange" } ]
-    },
-    {
+      "UUID": "com.user.helldivers2.AX_AR-23_Guard_Dog.key",
+      "Name": "[Backpack] AX/AR-23 Guard Dog",
+      "Tooltip": "AX/AR-23 Guard Dog",
+      "Icon": "images/backpacks/AX_AR-23_Guard_Dog",
+      "States": [ { "Image": "images/backpacks/AX_AR-23_Guard_Dog", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.AX_ARC-3_K-9.key",
+      "Name": "[Backpack] AX/ARC-3 K-9",
+      "Tooltip": "AX/ARC-3 K-9",
+      "Icon": "images/backpacks/AX_ARC-3_K-9",
+      "States": [ { "Image": "images/backpacks/AX_ARC-3_K-9", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.AX_FLAM-75_Hot_Dog.key",
+      "Name": "[Backpack] AX/FLAM-75 Hot Dog",
+      "Tooltip": "AX/FLAM-75 Hot Dog",
+      "Icon": "images/backpacks/AX_FLAM-75_Hot_Dog",
+      "States": [ { "Image": "images/backpacks/AX_FLAM-75_Hot_Dog", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.AX_LAS-5_Rover.key",
+      "Name": "[Backpack] AX/LAS-5 Rover",
+      "Tooltip": "AX/LAS-5 Rover",
+      "Icon": "images/backpacks/AX_LAS-5_Rover",
+      "States": [ { "Image": "images/backpacks/AX_LAS-5_Rover", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.AX_TX-13_Dog_Breath.key",
+      "Name": "[Backpack] AX/TX-13 Dog Breath",
+      "Tooltip": "AX/TX-13 Dog Breath",
+      "Icon": "images/backpacks/AX_TX-13_Dog_Breath",
+      "States": [ { "Image": "images/backpacks/AX_TX-13_Dog_Breath", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.B-100_Portable_Hellbomb.key",
+      "Name": "[Backpack] B-100 Portable Hellbomb",
+      "Tooltip": "B-100 Portable Hellbomb",
+      "Icon": "images/backpacks/B-100_Portable_Hellbomb",
+      "States": [ { "Image": "images/backpacks/B-100_Portable_Hellbomb", "TitleMode": "NoChange" } ]
+    },    {
       "UUID": "com.user.helldivers2.B-1_Supply_Pack.key",
-      "Name": "B-1 Supply Pack",
+      "Name": "[Backpack] B-1 Supply Pack",
       "Tooltip": "B-1 Supply Pack",
       "Icon": "images/backpacks/B-1_Supply_Pack",
       "States": [ { "Image": "images/backpacks/B-1_Supply_Pack", "TitleMode": "NoChange" } ]
-    },
-    {
+    },    {
+      "UUID": "com.user.helldivers2.LIFT-182_Warp_Pack.key",
+      "Name": "[Backpack] LIFT-182 Warp Pack",
+      "Tooltip": "LIFT-182 Warp Pack",
+      "Icon": "images/backpacks/LIFT-182_Warp_Pack",
+      "States": [ { "Image": "images/backpacks/LIFT-182_Warp_Pack", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.LIFT-850_Jump_Pack.key",
+      "Name": "[Backpack] LIFT-850 Jump Pack",
+      "Tooltip": "LIFT-850 Jump Pack",
+      "Icon": "images/backpacks/LIFT-850_Jump_Pack",
+      "States": [ { "Image": "images/backpacks/LIFT-850_Jump_Pack", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.LIFT-860_Hover_Pack.key",
+      "Name": "[Backpack] LIFT-860 Hover Pack",
+      "Tooltip": "LIFT-860 Hover Pack",
+      "Icon": "images/backpacks/LIFT-860_Hover_Pack",
+      "States": [ { "Image": "images/backpacks/LIFT-860_Hover_Pack", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.SH-20_Ballistic_Shield_Backpack.key",
+      "Name": "[Backpack] SH-20 Ballistic Shield Backpack",
+      "Tooltip": "SH-20 Ballistic Shield Backpack",
+      "Icon": "images/backpacks/SH-20_Ballistic_Shield_Backpack",
+      "States": [ { "Image": "images/backpacks/SH-20_Ballistic_Shield_Backpack", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.SH-32_Shield_Generator_Pack.key",
+      "Name": "[Backpack] SH-32 Shield Generator Pack",
+      "Tooltip": "SH-32 Shield Generator Pack",
+      "Icon": "images/backpacks/SH-32_Shield_Generator_Pack",
+      "States": [ { "Image": "images/backpacks/SH-32_Shield_Generator_Pack", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.SH-51_Directional_Shield.key",
+      "Name": "[Backpack] SH-51 Directional Shield",
+      "Tooltip": "SH-51 Directional Shield",
+      "Icon": "images/backpacks/SH-51_Directional_Shield",
+      "States": [ { "Image": "images/backpacks/SH-51_Directional_Shield", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_110mm_Rocket_Pods.key",
+      "Name": "[Eagle] Eagle 110mm Rocket Pods",
+      "Tooltip": "Eagle 110mm Rocket Pods",
+      "Icon": "images/eagles/Eagle_110mm_Rocket_Pods",
+      "States": [ { "Image": "images/eagles/Eagle_110mm_Rocket_Pods", "TitleMode": "NoChange" } ]
+    },    {
       "UUID": "com.user.helldivers2.Eagle_500kg_Bomb.key",
-      "Name": "Eagle 500kg Bomb",
+      "Name": "[Eagle] Eagle 500kg Bomb",
       "Tooltip": "Eagle 500kg Bomb",
       "Icon": "images/eagles/Eagle_500kg_Bomb",
       "States": [ { "Image": "images/eagles/Eagle_500kg_Bomb", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Airstrike.key",
+      "Name": "[Eagle] Eagle Airstrike",
+      "Tooltip": "Eagle Airstrike",
+      "Icon": "images/eagles/Eagle_Airstrike",
+      "States": [ { "Image": "images/eagles/Eagle_Airstrike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Cluster_Bomb.key",
+      "Name": "[Eagle] Eagle Cluster Bomb",
+      "Tooltip": "Eagle Cluster Bomb",
+      "Icon": "images/eagles/Eagle_Cluster_Bomb",
+      "States": [ { "Image": "images/eagles/Eagle_Cluster_Bomb", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Napalm_Airstrike.key",
+      "Name": "[Eagle] Eagle Napalm Airstrike",
+      "Tooltip": "Eagle Napalm Airstrike",
+      "Icon": "images/eagles/Eagle_Napalm_Airstrike",
+      "States": [ { "Image": "images/eagles/Eagle_Napalm_Airstrike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Smoke_Strike.key",
+      "Name": "[Eagle] Eagle Smoke Strike",
+      "Tooltip": "Eagle Smoke Strike",
+      "Icon": "images/eagles/Eagle_Smoke_Strike",
+      "States": [ { "Image": "images/eagles/Eagle_Smoke_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Strafing_Run.key",
+      "Name": "[Eagle] Eagle Strafing Run",
+      "Tooltip": "Eagle Strafing Run",
+      "Icon": "images/eagles/Eagle_Strafing_Run",
+      "States": [ { "Image": "images/eagles/Eagle_Strafing_Run", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.E_AT-12_Anti-Tank_Emplacement.key",
+      "Name": "[Emplacement] E/AT-12 Anti-Tank Emplacement",
+      "Tooltip": "E/AT-12 Anti-Tank Emplacement",
+      "Icon": "images/emplacements/E_AT-12_Anti-Tank_Emplacement",
+      "States": [ { "Image": "images/emplacements/E_AT-12_Anti-Tank_Emplacement", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.E_GL-21_Grenadier_Battlement.key",
+      "Name": "[Emplacement] E/GL-21 Grenadier Battlement",
+      "Tooltip": "E/GL-21 Grenadier Battlement",
+      "Icon": "images/emplacements/E_GL-21_Grenadier_Battlement",
+      "States": [ { "Image": "images/emplacements/E_GL-21_Grenadier_Battlement", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.E_MG-101_HMG_Emplacement.key",
+      "Name": "[Emplacement] E/MG-101 HMG Emplacement",
+      "Tooltip": "E/MG-101 HMG Emplacement",
+      "Icon": "images/emplacements/E_MG-101_HMG_Emplacement",
+      "States": [ { "Image": "images/emplacements/E_MG-101_HMG_Emplacement", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.FX-12_Shield_Generator_Relay.key",
+      "Name": "[Emplacement] FX-12 Shield Generator Relay",
+      "Tooltip": "FX-12 Shield Generator Relay",
+      "Icon": "images/emplacements/FX-12_Shield_Generator_Relay",
+      "States": [ { "Image": "images/emplacements/FX-12_Shield_Generator_Relay", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MD-17_Anti-Tank_Mines.key",
+      "Name": "[Emplacement] MD-17 Anti-Tank Mines",
+      "Tooltip": "MD-17 Anti-Tank Mines",
+      "Icon": "images/emplacements/MD-17_Anti-Tank_Mines",
+      "States": [ { "Image": "images/emplacements/MD-17_Anti-Tank_Mines", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MD-6_Anti-Personnel_Minefield.key",
+      "Name": "[Emplacement] MD-6 Anti-Personnel Minefield",
+      "Tooltip": "MD-6 Anti-Personnel Minefield",
+      "Icon": "images/emplacements/MD-6_Anti-Personnel_Minefield",
+      "States": [ { "Image": "images/emplacements/MD-6_Anti-Personnel_Minefield", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MD-8_Gas_Mines.key",
+      "Name": "[Emplacement] MD-8 Gas Mines",
+      "Tooltip": "MD-8 Gas Mines",
+      "Icon": "images/emplacements/MD-8_Gas_Mines",
+      "States": [ { "Image": "images/emplacements/MD-8_Gas_Mines", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MD-I4_Incendiary_Mines.key",
+      "Name": "[Emplacement] MD-I4 Incendiary Mines",
+      "Tooltip": "MD-I4 Incendiary Mines",
+      "Icon": "images/emplacements/MD-I4_Incendiary_Mines",
+      "States": [ { "Image": "images/emplacements/MD-I4_Incendiary_Mines", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Call_In_Super_Destroyer.key",
+      "Name": "[Mission] Call In Super Destroyer",
+      "Tooltip": "Call In Super Destroyer",
+      "Icon": "images/mission/Call_In_Super_Destroyer",
+      "States": [ { "Image": "images/mission/Call_In_Super_Destroyer", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Cargo_Container.key",
+      "Name": "[Mission] Cargo Container",
+      "Tooltip": "Cargo Container",
+      "Icon": "images/mission/Cargo_Container",
+      "States": [ { "Image": "images/mission/Cargo_Container", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Dark_Fluid_Vessel.key",
+      "Name": "[Mission] Dark Fluid Vessel",
+      "Tooltip": "Dark Fluid Vessel",
+      "Icon": "images/mission/Dark_Fluid_Vessel",
+      "States": [ { "Image": "images/mission/Dark_Fluid_Vessel", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Rearm.key",
+      "Name": "[Mission] Eagle Rearm",
+      "Tooltip": "Eagle Rearm",
+      "Icon": "images/eagles/Eagle_Rearm",
+      "States": [ { "Image": "images/eagles/Eagle_Rearm", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.NUX-223_Hellbomb.key",
+      "Name": "[Mission] NUX-223 Hellbomb",
+      "Tooltip": "NUX-223 Hellbomb",
+      "Icon": "images/mission/NUX-223_Hellbomb",
+      "States": [ { "Image": "images/mission/NUX-223_Hellbomb", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Reinforce.key",
+      "Name": "[Mission] Reinforce",
+      "Tooltip": "Reinforce",
+      "Icon": "images/mission/Reinforce",
+      "States": [ { "Image": "images/mission/Reinforce", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Resupply.key",
+      "Name": "[Mission] Resupply",
+      "Tooltip": "Resupply",
+      "Icon": "images/mission/Resupply",
+      "States": [ { "Image": "images/mission/Resupply", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.SEAF_Artillery.key",
+      "Name": "[Mission] SEAF Artillery",
+      "Tooltip": "SEAF Artillery",
+      "Icon": "images/mission/SEAF_Artillery",
+      "States": [ { "Image": "images/mission/SEAF_Artillery", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Seismic_Probe.key",
+      "Name": "[Mission] Seismic Probe",
+      "Tooltip": "Seismic Probe",
+      "Icon": "images/mission/Seismic_Probe",
+      "States": [ { "Image": "images/mission/Seismic_Probe", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.SoS_Beacon.key",
+      "Name": "[Mission] SoS Beacon",
+      "Tooltip": "SoS Beacon",
+      "Icon": "images/mission/SoS_Beacon",
+      "States": [ { "Image": "images/mission/SoS_Beacon", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Super_Earth_Flag.key",
+      "Name": "[Mission] Super Earth Flag",
+      "Tooltip": "Super Earth Flag",
+      "Icon": "images/mission/Super_Earth_Flag",
+      "States": [ { "Image": "images/mission/Super_Earth_Flag", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Tectonic_Drill.key",
+      "Name": "[Mission] Tectonic Drill",
+      "Tooltip": "Tectonic Drill",
+      "Icon": "images/mission/Tectonic_Drill",
+      "States": [ { "Image": "images/mission/Tectonic_Drill", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Upload_Data.key",
+      "Name": "[Mission] Upload Data",
+      "Tooltip": "Upload Data",
+      "Icon": "images/mission/Upload_Data",
+      "States": [ { "Image": "images/mission/Upload_Data", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_120mm_HE_Barrage.key",
+      "Name": "[Orbital] Orbital 120mm HE Barrage",
+      "Tooltip": "Orbital 120mm HE Barrage",
+      "Icon": "images/orbitals/Orbital_120mm_HE_Barrage",
+      "States": [ { "Image": "images/orbitals/Orbital_120mm_HE_Barrage", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_380mm_HE_Barrage.key",
+      "Name": "[Orbital] Orbital 380mm HE Barrage",
+      "Tooltip": "Orbital 380mm HE Barrage",
+      "Icon": "images/orbitals/Orbital_380mm_HE_Barrage",
+      "States": [ { "Image": "images/orbitals/Orbital_380mm_HE_Barrage", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Airburst_Strike.key",
+      "Name": "[Orbital] Orbital Airburst Strike",
+      "Tooltip": "Orbital Airburst Strike",
+      "Icon": "images/orbitals/Orbital_Airburst_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_Airburst_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_EMS_Strike.key",
+      "Name": "[Orbital] Orbital EMS Strike",
+      "Tooltip": "Orbital EMS Strike",
+      "Icon": "images/orbitals/Orbital_EMS_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_EMS_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Gas_Strike.key",
+      "Name": "[Orbital] Orbital Gas Strike",
+      "Tooltip": "Orbital Gas Strike",
+      "Icon": "images/orbitals/Orbital_Gas_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_Gas_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Gatling_Barrage.key",
+      "Name": "[Orbital] Orbital Gatling Barrage",
+      "Tooltip": "Orbital Gatling Barrage",
+      "Icon": "images/orbitals/Orbital_Gatling_Barrage",
+      "States": [ { "Image": "images/orbitals/Orbital_Gatling_Barrage", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Laser.key",
+      "Name": "[Orbital] Orbital Laser",
+      "Tooltip": "Orbital Laser",
+      "Icon": "images/orbitals/Orbital_Laser",
+      "States": [ { "Image": "images/orbitals/Orbital_Laser", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Napalm_Barrage.key",
+      "Name": "[Orbital] Orbital Napalm Barrage",
+      "Tooltip": "Orbital Napalm Barrage",
+      "Icon": "images/orbitals/Orbital_Napalm_Barrage",
+      "States": [ { "Image": "images/orbitals/Orbital_Napalm_Barrage", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Precision_Strike.key",
+      "Name": "[Orbital] Orbital Precision Strike",
+      "Tooltip": "Orbital Precision Strike",
+      "Icon": "images/orbitals/Orbital_Precision_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_Precision_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Railcannon_Strike.key",
+      "Name": "[Orbital] Orbital Railcannon Strike",
+      "Tooltip": "Orbital Railcannon Strike",
+      "Icon": "images/orbitals/Orbital_Railcannon_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_Railcannon_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Smoke_Strike.key",
+      "Name": "[Orbital] Orbital Smoke Strike",
+      "Tooltip": "Orbital Smoke Strike",
+      "Icon": "images/orbitals/Orbital_Smoke_Strike",
+      "States": [ { "Image": "images/orbitals/Orbital_Smoke_Strike", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Orbital_Walking_Barrage.key",
+      "Name": "[Orbital] Orbital Walking Barrage",
+      "Tooltip": "Orbital Walking Barrage",
+      "Icon": "images/orbitals/Orbital_Walking_Barrage",
+      "States": [ { "Image": "images/orbitals/Orbital_Walking_Barrage", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_AC-8_Autocannon_Sentry.key",
+      "Name": "[Sentry] A/AC-8 Autocannon Sentry",
+      "Tooltip": "A/AC-8 Autocannon Sentry",
+      "Icon": "images/sentries/A_AC-8_Autocannon_Sentry",
+      "States": [ { "Image": "images/sentries/A_AC-8_Autocannon_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_ARC-3_Tesla_Tower.key",
+      "Name": "[Sentry] A/ARC-3 Tesla Tower",
+      "Tooltip": "A/ARC-3 Tesla Tower",
+      "Icon": "images/sentries/A_ARC-3_Tesla_Tower",
+      "States": [ { "Image": "images/sentries/A_ARC-3_Tesla_Tower", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_FLAM-40_Flame_Sentry.key",
+      "Name": "[Sentry] A/FLAM-40 Flame Sentry",
+      "Tooltip": "A/FLAM-40 Flame Sentry",
+      "Icon": "images/sentries/A_FLAM-40_Flame_Sentry",
+      "States": [ { "Image": "images/sentries/A_FLAM-40_Flame_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_G-16_Gatling_Sentry.key",
+      "Name": "[Sentry] A/G-16 Gatling Sentry",
+      "Tooltip": "A/G-16 Gatling Sentry",
+      "Icon": "images/sentries/A_G-16_Gatling_Sentry",
+      "States": [ { "Image": "images/sentries/A_G-16_Gatling_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_GM-17_Gas_Mortar_Sentry.key",
+      "Name": "[Sentry] A/GM-17 Gas Mortar Sentry",
+      "Tooltip": "A/GM-17 Gas Mortar Sentry",
+      "Icon": "images/sentries/A_GM-17_Gas_Mortar_Sentry",
+      "States": [ { "Image": "images/sentries/A_GM-17_Gas_Mortar_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_LAS-98_Laser_Sentry.key",
+      "Name": "[Sentry] A/LAS-98 Laser Sentry",
+      "Tooltip": "A/LAS-98 Laser Sentry",
+      "Icon": "images/sentries/A_LAS-98_Laser_Sentry",
+      "States": [ { "Image": "images/sentries/A_LAS-98_Laser_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_M-12_Mortar_Sentry.key",
+      "Name": "[Sentry] A/M-12 Mortar Sentry",
+      "Tooltip": "A/M-12 Mortar Sentry",
+      "Icon": "images/sentries/A_M-12_Mortar_Sentry",
+      "States": [ { "Image": "images/sentries/A_M-12_Mortar_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_M-23_EMS_Mortar_Sentry.key",
+      "Name": "[Sentry] A/M-23 EMS Mortar Sentry",
+      "Tooltip": "A/M-23 EMS Mortar Sentry",
+      "Icon": "images/sentries/A_M-23_EMS_Mortar_Sentry",
+      "States": [ { "Image": "images/sentries/A_M-23_EMS_Mortar_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_MG-43_Machine_Gun_Sentry.key",
+      "Name": "[Sentry] A/MG-43 Machine Gun Sentry",
+      "Tooltip": "A/MG-43 Machine Gun Sentry",
+      "Icon": "images/sentries/A_MG-43_Machine_Gun_Sentry",
+      "States": [ { "Image": "images/sentries/A_MG-43_Machine_Gun_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.A_MLS-4X_Rocket_Sentry.key",
+      "Name": "[Sentry] A/MLS-4X Rocket Sentry",
+      "Tooltip": "A/MLS-4X Rocket Sentry",
+      "Icon": "images/sentries/A_MLS-4X_Rocket_Sentry",
+      "States": [ { "Image": "images/sentries/A_MLS-4X_Rocket_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Rocket_Sentry.key",
+      "Name": "[Sentry] Rocket Sentry",
+      "Tooltip": "Rocket Sentry",
+      "Icon": "images/sentries/Rocket_Sentry",
+      "States": [ { "Image": "images/sentries/Rocket_Sentry", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.40-K_Meltagun.key",
+      "Name": "[Support] 40-K Meltagun",
+      "Tooltip": "40-K Meltagun",
+      "Icon": "images/support/40-K_Meltagun",
+      "States": [ { "Image": "images/support/40-K_Meltagun", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.AC-8_Autocannon.key",
+      "Name": "[Support] AC-8 Autocannon",
+      "Tooltip": "AC-8 Autocannon",
+      "Icon": "images/support/AC-8_Autocannon",
+      "States": [ { "Image": "images/support/AC-8_Autocannon", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.APW-1_Anti-Materiel_Rifle.key",
+      "Name": "[Support] APW-1 Anti-Materiel Rifle",
+      "Tooltip": "APW-1 Anti-Materiel Rifle",
+      "Icon": "images/support/APW-1_Anti-Materiel_Rifle",
+      "States": [ { "Image": "images/support/APW-1_Anti-Materiel_Rifle", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.ARC-3_Arc_Thrower.key",
+      "Name": "[Support] ARC-3 Arc Thrower",
+      "Tooltip": "ARC-3 Arc Thrower",
+      "Icon": "images/support/ARC-3_Arc_Thrower",
+      "States": [ { "Image": "images/support/ARC-3_Arc_Thrower", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.B_FLAM-80_Cremator.key",
+      "Name": "[Support] B/FLAM-80 Cremator",
+      "Tooltip": "B/FLAM-80 Cremator",
+      "Icon": "images/support/B_FLAM-80_Cremator",
+      "States": [ { "Image": "images/support/B_FLAM-80_Cremator", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.B_MD_C4_Pack.key",
+      "Name": "[Support] B/MD C4 Pack",
+      "Tooltip": "B/MD C4 Pack",
+      "Icon": "images/support/B_MD_C4_Pack",
+      "States": [ { "Image": "images/support/B_MD_C4_Pack", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.CQC-1_One_True_Flag.key",
+      "Name": "[Support] CQC-1 One True Flag",
+      "Tooltip": "CQC-1 One True Flag",
+      "Icon": "images/support/CQC-1_One_True_Flag",
+      "States": [ { "Image": "images/support/CQC-1_One_True_Flag", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.CQC-20_Breaching_Hammer.key",
+      "Name": "[Support] CQC-20 Breaching Hammer",
+      "Tooltip": "CQC-20 Breaching Hammer",
+      "Icon": "images/support/CQC-20_Breaching_Hammer",
+      "States": [ { "Image": "images/support/CQC-20_Breaching_Hammer", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.CQC-9_Defoliation_Tool.key",
+      "Name": "[Support] CQC-9 Defoliation Tool",
+      "Tooltip": "CQC-9 Defoliation Tool",
+      "Icon": "images/support/CQC-9_Defoliation_Tool",
+      "States": [ { "Image": "images/support/CQC-9_Defoliation_Tool", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EAT-17_Expendable_Anti-Tank.key",
+      "Name": "[Support] EAT-17 Expendable Anti-Tank",
+      "Tooltip": "EAT-17 Expendable Anti-Tank",
+      "Icon": "images/support/EAT-17_Expendable_Anti-Tank",
+      "States": [ { "Image": "images/support/EAT-17_Expendable_Anti-Tank", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EAT-411_Leveller.key",
+      "Name": "[Support] EAT-411 Leveller",
+      "Tooltip": "EAT-411 Leveller",
+      "Icon": "images/support/EAT-411_Leveller",
+      "States": [ { "Image": "images/support/EAT-411_Leveller", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EAT-700_Expendable_Napalm.key",
+      "Name": "[Support] EAT-700 Expendable Napalm",
+      "Tooltip": "EAT-700 Expendable Napalm",
+      "Icon": "images/support/EAT-700_Expendable_Napalm",
+      "States": [ { "Image": "images/support/EAT-700_Expendable_Napalm", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.FAF-14_Spear.key",
+      "Name": "[Support] FAF-14 Spear",
+      "Tooltip": "FAF-14 Spear",
+      "Icon": "images/support/FAF-14_Spear",
+      "States": [ { "Image": "images/support/FAF-14_Spear", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.FLAM-40_Flamethrower.key",
+      "Name": "[Support] FLAM-40 Flamethrower",
+      "Tooltip": "FLAM-40 Flamethrower",
+      "Icon": "images/support/FLAM-40_Flamethrower",
+      "States": [ { "Image": "images/support/FLAM-40_Flamethrower", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.GL-21_Grenade_Launcher.key",
+      "Name": "[Support] GL-21 Grenade Launcher",
+      "Tooltip": "GL-21 Grenade Launcher",
+      "Icon": "images/support/GL-21_Grenade_Launcher",
+      "States": [ { "Image": "images/support/GL-21_Grenade_Launcher", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.GL-28_Belt-Fed_Grenade_Launcher.key",
+      "Name": "[Support] GL-28 Belt-Fed Grenade Launcher",
+      "Tooltip": "GL-28 Belt-Fed Grenade Launcher",
+      "Icon": "images/support/GL-28_Belt-Fed_Grenade_Launcher",
+      "States": [ { "Image": "images/support/GL-28_Belt-Fed_Grenade_Launcher", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.GL-52_De-Escalator.key",
+      "Name": "[Support] GL-52 De-Escalator",
+      "Tooltip": "GL-52 De-Escalator",
+      "Icon": "images/support/GL-52_De-Escalator",
+      "States": [ { "Image": "images/support/GL-52_De-Escalator", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.GR-8_Recoilless_Rifle.key",
+      "Name": "[Support] GR-8 Recoilless Rifle",
+      "Tooltip": "GR-8 Recoilless Rifle",
+      "Icon": "images/support/GR-8_Recoilless_Rifle",
+      "States": [ { "Image": "images/support/GR-8_Recoilless_Rifle", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.LAS-98_Laser_Cannon.key",
+      "Name": "[Support] LAS-98 Laser Cannon",
+      "Tooltip": "LAS-98 Laser Cannon",
+      "Icon": "images/support/LAS-98_Laser_Cannon",
+      "States": [ { "Image": "images/support/LAS-98_Laser_Cannon", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.LAS-99_Quasar_Cannon.key",
+      "Name": "[Support] LAS-99 Quasar Cannon",
+      "Tooltip": "LAS-99 Quasar Cannon",
+      "Icon": "images/support/LAS-99_Quasar_Cannon",
+      "States": [ { "Image": "images/support/LAS-99_Quasar_Cannon", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.M-1000_Maxigun.key",
+      "Name": "[Support] M-1000 Maxigun",
+      "Tooltip": "M-1000 Maxigun",
+      "Icon": "images/support/M-1000_Maxigun",
+      "States": [ { "Image": "images/support/M-1000_Maxigun", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.M-105_Stalwart.key",
+      "Name": "[Support] M-105 Stalwart",
+      "Tooltip": "M-105 Stalwart",
+      "Icon": "images/support/M-105_Stalwart",
+      "States": [ { "Image": "images/support/M-105_Stalwart", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MG-206_Heavy_Machine_Gun.key",
+      "Name": "[Support] MG-206 Heavy Machine Gun",
+      "Tooltip": "MG-206 Heavy Machine Gun",
+      "Icon": "images/support/MG-206_Heavy_Machine_Gun",
+      "States": [ { "Image": "images/support/MG-206_Heavy_Machine_Gun", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MG-43_Machine_Gun.key",
+      "Name": "[Support] MG-43 Machine Gun",
+      "Tooltip": "MG-43 Machine Gun",
+      "Icon": "images/support/MG-43_Machine_Gun",
+      "States": [ { "Image": "images/support/MG-43_Machine_Gun", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MGX-42_Bullet_Storm.key",
+      "Name": "[Support] MGX-42 Bullet Storm",
+      "Tooltip": "MGX-42 Bullet Storm",
+      "Icon": "images/support/MGX-42_Bullet_Storm",
+      "States": [ { "Image": "images/support/MGX-42_Bullet_Storm", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MLS-4X_Commando.key",
+      "Name": "[Support] MLS-4X Commando",
+      "Tooltip": "MLS-4X Commando",
+      "Icon": "images/support/MLS-4X_Commando",
+      "States": [ { "Image": "images/support/MLS-4X_Commando", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.MS-11_Solo_Silo.key",
+      "Name": "[Support] MS-11 Solo Silo",
+      "Tooltip": "MS-11 Solo Silo",
+      "Icon": "images/support/MS-11_Solo_Silo",
+      "States": [ { "Image": "images/support/MS-11_Solo_Silo", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.PLAS-45_Epoch.key",
+      "Name": "[Support] PLAS-45 Epoch",
+      "Tooltip": "PLAS-45 Epoch",
+      "Icon": "images/support/PLAS-45_Epoch",
+      "States": [ { "Image": "images/support/PLAS-45_Epoch", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.RL-77_Airburst_Rocket_Launcher.key",
+      "Name": "[Support] RL-77 Airburst Rocket Launcher",
+      "Tooltip": "RL-77 Airburst Rocket Launcher",
+      "Icon": "images/support/RL-77_Airburst_Rocket_Launcher",
+      "States": [ { "Image": "images/support/RL-77_Airburst_Rocket_Launcher", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.RS-422_Railgun.key",
+      "Name": "[Support] RS-422 Railgun",
+      "Tooltip": "RS-422 Railgun",
+      "Icon": "images/support/RS-422_Railgun",
+      "States": [ { "Image": "images/support/RS-422_Railgun", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.S-11_Speargun.key",
+      "Name": "[Support] S-11 Speargun",
+      "Tooltip": "S-11 Speargun",
+      "Icon": "images/support/S-11_Speargun",
+      "States": [ { "Image": "images/support/S-11_Speargun", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.StA-X3_W.A.S.P._Launcher.key",
+      "Name": "[Support] StA-X3 W.A.S.P. Launcher",
+      "Tooltip": "StA-X3 W.A.S.P. Launcher",
+      "Icon": "images/support/StA-X3_W.A.S.P._Launcher",
+      "States": [ { "Image": "images/support/StA-X3_W.A.S.P._Launcher", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.TX-41_Sterilizer.key",
+      "Name": "[Support] TX-41 Sterilizer",
+      "Tooltip": "TX-41 Sterilizer",
+      "Icon": "images/support/TX-41_Sterilizer",
+      "States": [ { "Image": "images/support/TX-41_Sterilizer", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EXO-45_Patriot_Exosuit.key",
+      "Name": "[Vehicle] EXO-45 Patriot Exosuit",
+      "Tooltip": "EXO-45 Patriot Exosuit",
+      "Icon": "images/vehicles/EXO-45_Patriot_Exosuit",
+      "States": [ { "Image": "images/vehicles/EXO-45_Patriot_Exosuit", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EXO-49_Emancipator_Exosuit.key",
+      "Name": "[Vehicle] EXO-49 Emancipator Exosuit",
+      "Tooltip": "EXO-49 Emancipator Exosuit",
+      "Icon": "images/vehicles/EXO-49_Emancipator_Exosuit",
+      "States": [ { "Image": "images/vehicles/EXO-49_Emancipator_Exosuit", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EXO-51_Lumberer_Exosuit.key",
+      "Name": "[Vehicle] EXO-51 Lumberer Exosuit",
+      "Tooltip": "EXO-51 Lumberer Exosuit",
+      "Icon": "images/vehicles/EXO-51_Lumberer_Exosuit",
+      "States": [ { "Image": "images/vehicles/EXO-51_Lumberer_Exosuit", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.EXO-55_Breakthrough_Exosuit.key",
+      "Name": "[Vehicle] EXO-55 Breakthrough Exosuit",
+      "Tooltip": "EXO-55 Breakthrough Exosuit",
+      "Icon": "images/vehicles/EXO-55_Breakthrough_Exosuit",
+      "States": [ { "Image": "images/vehicles/EXO-55_Breakthrough_Exosuit", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.M-102_Gunner_FRV.key",
+      "Name": "[Vehicle] M-102 Gunner FRV",
+      "Tooltip": "M-102 Gunner FRV",
+      "Icon": "images/vehicles/M-102_Gunner_FRV",
+      "States": [ { "Image": "images/vehicles/M-102_Gunner_FRV", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.M-103_Supply_FRV.key",
+      "Name": "[Vehicle] M-103 Supply FRV",
+      "Tooltip": "M-103 Supply FRV",
+      "Icon": "images/vehicles/M-103_Supply_FRV",
+      "States": [ { "Image": "images/vehicles/M-103_Supply_FRV", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.M-104_Incinerator_FRV.key",
+      "Name": "[Vehicle] M-104 Incinerator FRV",
+      "Tooltip": "M-104 Incinerator FRV",
+      "Icon": "images/vehicles/M-104_Incinerator_FRV",
+      "States": [ { "Image": "images/vehicles/M-104_Incinerator_FRV", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.TD-220_Bastion_MK_XVI.key",
+      "Name": "[Vehicle] TD-220 Bastion MK XVI",
+      "Tooltip": "TD-220 Bastion MK XVI",
+      "Icon": "images/vehicles/TD-220_Bastion_MK_XVI",
+      "States": [ { "Image": "images/vehicles/TD-220_Bastion_MK_XVI", "TitleMode": "NoChange" } ]
     }
   ]
 }

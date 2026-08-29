@@ -1,0 +1,105 @@
+Backpack|AX/AR-23 Guard Dog|images/backpacks/AX_AR-23_Guard_Dog
+Backpack|AX/ARC-3 K-9|images/backpacks/AX_ARC-3_K-9
+Backpack|AX/FLAM-75 Hot Dog|images/backpacks/AX_FLAM-75_Hot_Dog
+Backpack|AX/LAS-5 Rover|images/backpacks/AX_LAS-5_Rover
+Backpack|AX/TX-13 Dog Breath|images/backpacks/AX_TX-13_Dog_Breath
+Backpack|B-100 Portable Hellbomb|images/backpacks/B-100_Portable_Hellbomb
+Backpack|B-1 Supply Pack|images/backpacks/B-1_Supply_Pack
+Backpack|LIFT-182 Warp Pack|images/backpacks/LIFT-182_Warp_Pack
+Backpack|LIFT-850 Jump Pack|images/backpacks/LIFT-850_Jump_Pack
+Backpack|LIFT-860 Hover Pack|images/backpacks/LIFT-860_Hover_Pack
+Backpack|SH-20 Ballistic Shield Backpack|images/backpacks/SH-20_Ballistic_Shield_Backpack
+Backpack|SH-32 Shield Generator Pack|images/backpacks/SH-32_Shield_Generator_Pack
+Backpack|SH-51 Directional Shield|images/backpacks/SH-51_Directional_Shield
+Eagle|Eagle 110mm Rocket Pods|images/eagles/Eagle_110mm_Rocket_Pods
+Eagle|Eagle 500kg Bomb|images/eagles/Eagle_500kg_Bomb
+Eagle|Eagle Airstrike|images/eagles/Eagle_Airstrike
+Eagle|Eagle Cluster Bomb|images/eagles/Eagle_Cluster_Bomb
+Eagle|Eagle Napalm Airstrike|images/eagles/Eagle_Napalm_Airstrike
+Eagle|Eagle Smoke Strike|images/eagles/Eagle_Smoke_Strike
+Eagle|Eagle Strafing Run|images/eagles/Eagle_Strafing_Run
+Emplacement|E/AT-12 Anti-Tank Emplacement|images/emplacements/E_AT-12_Anti-Tank_Emplacement
+Emplacement|E/GL-21 Grenadier Battlement|images/emplacements/E_GL-21_Grenadier_Battlement
+Emplacement|E/MG-101 HMG Emplacement|images/emplacements/E_MG-101_HMG_Emplacement
+Emplacement|FX-12 Shield Generator Relay|images/emplacements/FX-12_Shield_Generator_Relay
+Emplacement|MD-17 Anti-Tank Mines|images/emplacements/MD-17_Anti-Tank_Mines
+Emplacement|MD-6 Anti-Personnel Minefield|images/emplacements/MD-6_Anti-Personnel_Minefield
+Emplacement|MD-8 Gas Mines|images/emplacements/MD-8_Gas_Mines
+Emplacement|MD-I4 Incendiary Mines|images/emplacements/MD-I4_Incendiary_Mines
+Mission|Call In Super Destroyer|images/mission/Call_In_Super_Destroyer
+Mission|Cargo Container|images/mission/Cargo_Container
+Mission|Dark Fluid Vessel|images/mission/Dark_Fluid_Vessel
+Mission|Eagle Rearm|images/eagles/Eagle_Rearm
+Mission|NUX-223 Hellbomb|images/mission/NUX-223_Hellbomb
+Mission|Reinforce|images/mission/Reinforce
+Mission|Resupply|images/mission/Resupply
+Mission|SEAF Artillery|images/mission/SEAF_Artillery
+Mission|Seismic Probe|images/mission/Seismic_Probe
+Mission|SoS Beacon|images/mission/SoS_Beacon
+Mission|Super Earth Flag|images/mission/Super_Earth_Flag
+Mission|Tectonic Drill|images/mission/Tectonic_Drill
+Mission|Upload Data|images/mission/Upload_Data
+Orbital|Orbital 120mm HE Barrage|images/orbitals/Orbital_120mm_HE_Barrage
+Orbital|Orbital 380mm HE Barrage|images/orbitals/Orbital_380mm_HE_Barrage
+Orbital|Orbital Airburst Strike|images/orbitals/Orbital_Airburst_Strike
+Orbital|Orbital EMS Strike|images/orbitals/Orbital_EMS_Strike
+Orbital|Orbital Gas Strike|images/orbitals/Orbital_Gas_Strike
+Orbital|Orbital Gatling Barrage|images/orbitals/Orbital_Gatling_Barrage
+Orbital|Orbital Laser|images/orbitals/Orbital_Laser
+Orbital|Orbital Napalm Barrage|images/orbitals/Orbital_Napalm_Barrage
+Orbital|Orbital Precision Strike|images/orbitals/Orbital_Precision_Strike
+Orbital|Orbital Railcannon Strike|images/orbitals/Orbital_Railcannon_Strike
+Orbital|Orbital Smoke Strike|images/orbitals/Orbital_Smoke_Strike
+Orbital|Orbital Walking Barrage|images/orbitals/Orbital_Walking_Barrage
+Sentry|A/AC-8 Autocannon Sentry|images/sentries/A_AC-8_Autocannon_Sentry
+Sentry|A/ARC-3 Tesla Tower|images/sentries/A_ARC-3_Tesla_Tower
+Sentry|A/FLAM-40 Flame Sentry|images/sentries/A_FLAM-40_Flame_Sentry
+Sentry|A/G-16 Gatling Sentry|images/sentries/A_G-16_Gatling_Sentry
+Sentry|A/GM-17 Gas Mortar Sentry|images/sentries/A_GM-17_Gas_Mortar_Sentry
+Sentry|A/LAS-98 Laser Sentry|images/sentries/A_LAS-98_Laser_Sentry
+Sentry|A/M-12 Mortar Sentry|images/sentries/A_M-12_Mortar_Sentry
+Sentry|A/M-23 EMS Mortar Sentry|images/sentries/A_M-23_EMS_Mortar_Sentry
+Sentry|A/MG-43 Machine Gun Sentry|images/sentries/A_MG-43_Machine_Gun_Sentry
+Sentry|A/MLS-4X Rocket Sentry|images/sentries/A_MLS-4X_Rocket_Sentry
+Sentry|Rocket Sentry|images/sentries/Rocket_Sentry
+Support|40-K Meltagun|images/support/40-K_Meltagun
+Support|AC-8 Autocannon|images/support/AC-8_Autocannon
+Support|APW-1 Anti-Materiel Rifle|images/support/APW-1_Anti-Materiel_Rifle
+Support|ARC-3 Arc Thrower|images/support/ARC-3_Arc_Thrower
+Support|B/FLAM-80 Cremator|images/support/B_FLAM-80_Cremator
+Support|B/MD C4 Pack|images/support/B_MD_C4_Pack
+Support|CQC-1 One True Flag|images/support/CQC-1_One_True_Flag
+Support|CQC-20 Breaching Hammer|images/support/CQC-20_Breaching_Hammer
+Support|CQC-9 Defoliation Tool|images/support/CQC-9_Defoliation_Tool
+Support|EAT-17 Expendable Anti-Tank|images/support/EAT-17_Expendable_Anti-Tank
+Support|EAT-411 Leveller|images/support/EAT-411_Leveller
+Support|EAT-700 Expendable Napalm|images/support/EAT-700_Expendable_Napalm
+Support|FAF-14 Spear|images/support/FAF-14_Spear
+Support|FLAM-40 Flamethrower|images/support/FLAM-40_Flamethrower
+Support|GL-21 Grenade Launcher|images/support/GL-21_Grenade_Launcher
+Support|GL-28 Belt-Fed Grenade Launcher|images/support/GL-28_Belt-Fed_Grenade_Launcher
+Support|GL-52 De-Escalator|images/support/GL-52_De-Escalator
+Support|GR-8 Recoilless Rifle|images/support/GR-8_Recoilless_Rifle
+Support|LAS-98 Laser Cannon|images/support/LAS-98_Laser_Cannon
+Support|LAS-99 Quasar Cannon|images/support/LAS-99_Quasar_Cannon
+Support|M-1000 Maxigun|images/support/M-1000_Maxigun
+Support|M-105 Stalwart|images/support/M-105_Stalwart
+Support|MG-206 Heavy Machine Gun|images/support/MG-206_Heavy_Machine_Gun
+Support|MG-43 Machine Gun|images/support/MG-43_Machine_Gun
+Support|MGX-42 Bullet Storm|images/support/MGX-42_Bullet_Storm
+Support|MLS-4X Commando|images/support/MLS-4X_Commando
+Support|MS-11 Solo Silo|images/support/MS-11_Solo_Silo
+Support|PLAS-45 Epoch|images/support/PLAS-45_Epoch
+Support|RL-77 Airburst Rocket Launcher|images/support/RL-77_Airburst_Rocket_Launcher
+Support|RS-422 Railgun|images/support/RS-422_Railgun
+Support|S-11 Speargun|images/support/S-11_Speargun
+Support|StA-X3 W.A.S.P. Launcher|images/support/StA-X3_W.A.S.P._Launcher
+Support|TX-41 Sterilizer|images/support/TX-41_Sterilizer
+Vehicle|EXO-45 Patriot Exosuit|images/vehicles/EXO-45_Patriot_Exosuit
+Vehicle|EXO-49 Emancipator Exosuit|images/vehicles/EXO-49_Emancipator_Exosuit
+Vehicle|EXO-51 Lumberer Exosuit|images/vehicles/EXO-51_Lumberer_Exosuit
+Vehicle|EXO-55 Breakthrough Exosuit|images/vehicles/EXO-55_Breakthrough_Exosuit
+Vehicle|M-102 Gunner FRV|images/vehicles/M-102_Gunner_FRV
+Vehicle|M-103 Supply FRV|images/vehicles/M-103_Supply_FRV
+Vehicle|M-104 Incinerator FRV|images/vehicles/M-104_Incinerator_FRV
+Vehicle|TD-220 Bastion MK XVI|images/vehicles/TD-220_Bastion_MK_XVI
