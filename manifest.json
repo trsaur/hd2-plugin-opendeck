@@ -2,7 +2,7 @@
   "Name": "Helldivers 2",
   "Author": "TrSaur",
   "Description": "Helldivers 2 Stratagems",
-  "Version": "0.1.13",
+  "Version": "0.9.1",
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
