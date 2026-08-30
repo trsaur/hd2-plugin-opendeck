@@ -28,8 +28,7 @@ Emplacement|MD-8 Gas Mines|images/emplacements/MD-8_Gas_Mines
 Emplacement|MD-I4 Incendiary Mines|images/emplacements/MD-I4_Incendiary_Mines
 Mission|Call In Super Destroyer|images/mission/Call_In_Super_Destroyer
 Mission|Cargo Container|images/mission/Cargo_Container
-Mission|Dark Fluid Vessel|images/mission/Dark_Fluid_Vessel
-Mission|Eagle Rearm|images/eagles/Eagle_Rearm
+Mission|Eagle Rearm|images/mission/Eagle_Rearm
 Mission|NUX-223 Hellbomb|images/mission/NUX-223_Hellbomb
 Mission|Reinforce|images/mission/Reinforce
 Mission|Resupply|images/mission/Resupply
@@ -61,7 +60,6 @@ Sentry|A/M-12 Mortar Sentry|images/sentries/A_M-12_Mortar_Sentry
 Sentry|A/M-23 EMS Mortar Sentry|images/sentries/A_M-23_EMS_Mortar_Sentry
 Sentry|A/MG-43 Machine Gun Sentry|images/sentries/A_MG-43_Machine_Gun_Sentry
 Sentry|A/MLS-4X Rocket Sentry|images/sentries/A_MLS-4X_Rocket_Sentry
-Sentry|Rocket Sentry|images/sentries/Rocket_Sentry
 Support|40-K Meltagun|images/support/40-K_Meltagun
 Support|AC-8 Autocannon|images/support/AC-8_Autocannon
 Support|APW-1 Anti-Materiel Rifle|images/support/APW-1_Anti-Materiel_Rifle

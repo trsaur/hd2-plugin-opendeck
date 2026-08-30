@@ -141,6 +141,7 @@ cat > "$OUTPUT_FILE" <<EOF
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
+  "Category": "Helldivers 2",
   "OS": [ { "Platform": "linux", "MinimumVersion": "1.0" } ],
   "Actions": [
 $actions_content

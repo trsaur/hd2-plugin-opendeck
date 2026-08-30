@@ -2,10 +2,11 @@
   "Name": "Helldivers 2",
   "Author": "TrSaur",
   "Description": "Helldivers 2 Stratagems",
-  "Version": "0.1.10",
+  "Version": "0.1.13",
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
+  "Category": "Helldivers 2",
   "OS": [ { "Platform": "linux", "MinimumVersion": "1.0" } ],
   "Actions": [
     {
@@ -189,17 +190,11 @@
       "Icon": "images/mission/Cargo_Container",
       "States": [ { "Image": "images/mission/Cargo_Container", "TitleMode": "NoChange" } ]
     },    {
-      "UUID": "com.user.helldivers2.Dark_Fluid_Vessel.key",
-      "Name": "[Mission] Dark Fluid Vessel",
-      "Tooltip": "Dark Fluid Vessel",
-      "Icon": "images/mission/Dark_Fluid_Vessel",
-      "States": [ { "Image": "images/mission/Dark_Fluid_Vessel", "TitleMode": "NoChange" } ]
-    },    {
       "UUID": "com.user.helldivers2.Eagle_Rearm.key",
       "Name": "[Mission] Eagle Rearm",
       "Tooltip": "Eagle Rearm",
-      "Icon": "images/eagles/Eagle_Rearm",
-      "States": [ { "Image": "images/eagles/Eagle_Rearm", "TitleMode": "NoChange" } ]
+      "Icon": "images/mission/Eagle_Rearm",
+      "States": [ { "Image": "images/mission/Eagle_Rearm", "TitleMode": "NoChange" } ]
     },    {
       "UUID": "com.user.helldivers2.NUX-223_Hellbomb.key",
       "Name": "[Mission] NUX-223 Hellbomb",
@@ -386,12 +381,6 @@
       "Tooltip": "A/MLS-4X Rocket Sentry",
       "Icon": "images/sentries/A_MLS-4X_Rocket_Sentry",
       "States": [ { "Image": "images/sentries/A_MLS-4X_Rocket_Sentry", "TitleMode": "NoChange" } ]
-    },    {
-      "UUID": "com.user.helldivers2.Rocket_Sentry.key",
-      "Name": "[Sentry] Rocket Sentry",
-      "Tooltip": "Rocket Sentry",
-      "Icon": "images/sentries/Rocket_Sentry",
-      "States": [ { "Image": "images/sentries/Rocket_Sentry", "TitleMode": "NoChange" } ]
     },    {
       "UUID": "com.user.helldivers2.40-K_Meltagun.key",
       "Name": "[Support] 40-K Meltagun",
