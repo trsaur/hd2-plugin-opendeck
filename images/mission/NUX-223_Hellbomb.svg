@@ -1,15 +1,5 @@
-<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
-  <desc>Traced by Dogo314</desc>
-  <g transform="translate(-28.444 589.487)scale(.98084)">
-    <path style="fill:none" d="M29-601h261v261H29z"/>
-    <clipPath id="a">
-      <path d="M29-601h261v261H29z"/>
-    </clipPath>
-    <g clip-path="url(#a)">
-      <path style="fill:#363426" transform="translate(-252.39 -601)scale(1.01953)" d="M276 0h256v256H276z"/>
-      <path d="M1771 96h-17c-7.727 0-14-6.273-14-14 0-7.586 6.047-13.771 13.579-13.994C1755.3 62.223 1760.661 58 1767 58c1.194 0 2.353.15 3.46.431 1.579-6 7.046-10.431 13.54-10.431s11.961 4.431 13.54 10.431A14 14 0 0 1 1801 58c6.339 0 11.7 4.223 13.421 10.006C1821.953 68.229 1828 74.414 1828 82c0 7.727-6.273 14-14 14h-17s-9 12-9 39c0 31 4 41 4 41l24-24v36l20-20v20h20l-20 20h-104l-20-20h20v-20l20 20v-36l24 24s4-10 4-41c0-27-9-39-9-39" style="fill:#ffe" transform="translate(-1659.344 -601)scale(1.01953)"/>
-      <path d="M1785 118c21.525 0 39 2.689 39 6s-17.475 6-39 6-39-2.689-39-6 17.475-6 39-6m0 4c-14.902 0-27 .896-27 2s12.098 2 27 2 27-.896 27-2-12.098-2-27-2" style="fill:#ffe" transform="matrix(1.35938 0 0 2.03906 -2266.984 -727.422)"/>
-      <path d="M276 256V0h256v256zM518 14H290v228h228zm-10 10v32l-32-32zM300 232v-32l32 32zm0-208h32l-32 32zm208 208h-32l32-32z" style="fill:#c9b269" transform="translate(-252.39 -601)scale(1.01953)"/>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126" fill="#fff">
+<path d="M63 109H34L21 95l15 2-2-12 11 11V76l14 13s2.5-21.5 3-30c.4-6.6-4-14-4-14l-11 1c-2.3.2-9.1-1-9-9s8-6 8-6 1.2-7 11-5c0 0-.9-5 6-5v88Zm0 0h29l13-14-15 2 2-12-11 11V76L67 89s-2.5-21.5-3-30c-.4-6.6 4-14 4-14l12 1c2.3.2 8.1-1 8-9s-8-6-8-6-1.2-7-11-5c0 0 .9-5-6-5v88Z"/>
+<path fill-rule="evenodd" d="M63 53c16.6 0 30 3.6 30 8s-13.4 8-30 8-30-3.6-30-8 13.4-8 30-8Zm0 4c12.2 0 22 1.8 22 4s-9.8 4-22 4-22-1.8-22-4 9.9-4 22-4Z"/>
+<path fill="#c9b269" d="M4 122v-20l20 20H4Zm118 0v-20l-20 20h20Zm0-118v20L102 4h20ZM4 4v20L24 4H4Z"/>
 </svg>

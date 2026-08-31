@@ -1,20 +1,9 @@
-<svg viewBox="0 0 256 256" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2">
-  <desc>Traced by Dogo314</desc>
-  <g transform="translate(-276 -306)">
-    <path style="fill:none" d="M276 306h256v256H276z"/>
-    <clipPath id="a">
-      <path d="M276 306h256v256H276z"/>
-    </clipPath>
-    <g clip-path="url(#a)">
-      <path style="fill:#190301" transform="translate(0 306)" d="M276 0h256v256H276z"/>
-      <circle cx="1232" cy="490" r="12" style="fill:#ffe" transform="translate(-828)"/>
-      <circle cx="1232" cy="490" r="12" style="fill:#ffe" transform="translate(-860)"/>
-      <circle cx="1232" cy="490" r="12" style="fill:#ffe" transform="translate(-892)"/>
-      <circle cx="1232" cy="490" r="12" style="fill:#ffe" transform="matrix(-1 0 0 1 1692 -56)"/>
-      <circle cx="1232" cy="490" r="12" style="fill:#ffe" transform="matrix(-1 0 0 1 1692 -88)"/>
-      <circle cx="1232" cy="490" r="12" style="fill:#ffe" transform="matrix(-1 0 0 1 1692 -120)"/>
-      <path d="M322.072 481.13 312 463l85-36 36-85 18.13 10.072C444.537 355.344 440 362.146 440 370c0 6.539 3.145 12.35 8.004 16-4.859 3.65-8.004 9.461-8.004 16s3.145 12.35 8.004 16c-4.859 3.65-8.004 9.461-8.004 16 0 11.038 8.962 20 20 20v15l29 29 7 28-28-7-29-29h-15c0-11.038-8.962-20-20-20-6.539 0-12.35 3.145-16 8.004-3.65-4.859-9.461-8.004-16-8.004s-12.35 3.145-16 8.004c-3.65-4.859-9.461-8.004-16-8.004-7.854 0-14.656 4.537-17.928 11.13M360 390l16-48 12 12v64h-64l-12-12z" style="fill:#dc6455"/>
-      <path d="M276 15V0h256v15zM518 .82H290v13.36h228z" style="fill:#dc6455" transform="matrix(1 0 0 17.06667 0 306)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 126 126">
+    <path fill="#de7b6c" fill-rule="evenodd" d="m9 47 29-8 9-29 7 7v38H16zm89 65L82 95h-9.026a10.5 10.5 0 0 0-10.482-10l-.288.014c-.069 0-.136-.01-.2-.01a9.959 9.959 0 0 0-8 4c-1.972-2.686-5.412-4-9-4a9.283 9.283 0 0 0-3.943.448 10.012 10.012 0 0 0-5.293 3.922A10.979 10.979 0 0 0 26.994 85l-.622.031L26 85a10 10 0 0 0-9.295 6.328L9 79l50-19 19-50 11.3 6.645A10.989 10.989 0 0 0 87.281 36.4a10.484 10.484 0 0 0-.78 17.73A10.99 10.99 0 0 0 95 73.819V83l17 17 1 14z"/>
+    <g fill="#fff">
+        <path fill-rule="evenodd" d="M26.493 88.014A7.493 7.493 0 1 1 19 95.507a7.493 7.493 0 0 1 7.493-7.493zm18.01 0a7.493 7.493 0 1 1-7.493 7.493 7.493 7.493 0 0 1 7.49-7.493zm18 0a7.493 7.493 0 1 1-7.508 7.493 7.5 7.5 0 0 1 7.505-7.493z"/>
+        <circle cx="92.5" cy="63.5" r="7.5"/>
+        <circle cx="92.5" cy="45.5" r="7.5"/>
+        <circle cx="92.5" cy="27.5" r="7.5"/>
     </g>
-  </g>
 </svg>
