@@ -15,6 +15,7 @@ Eagle|Eagle 110mm Rocket Pods|images/eagles/Eagle_110mm_Rocket_Pods
 Eagle|Eagle 500kg Bomb|images/eagles/Eagle_500kg_Bomb
 Eagle|Eagle Airstrike|images/eagles/Eagle_Airstrike
 Eagle|Eagle Cluster Bomb|images/eagles/Eagle_Cluster_Bomb
+Eagle|Eagle Gas Airstike|images/eagles/Eagle_Gas_Airstrike
 Eagle|Eagle Napalm Airstrike|images/eagles/Eagle_Napalm_Airstrike
 Eagle|Eagle Smoke Strike|images/eagles/Eagle_Smoke_Strike
 Eagle|Eagle Strafing Run|images/eagles/Eagle_Strafing_Run

@@ -2,7 +2,7 @@
   "Name": "Helldivers 2",
   "Author": "TrSaur",
   "Description": "Helldivers 2 Stratagems",
-  "Version": "0.9.1",
+  "Version": "0.9.2",
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
@@ -111,6 +111,12 @@
       "Tooltip": "Eagle Cluster Bomb",
       "Icon": "images/eagles/Eagle_Cluster_Bomb",
       "States": [ { "Image": "images/eagles/Eagle_Cluster_Bomb", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.Eagle_Gas_Airstrike.key",
+      "Name": "[Eagle] Eagle Gas Airstike",
+      "Tooltip": "Eagle Gas Airstike",
+      "Icon": "images/eagles/Eagle_Gas_Airstrike",
+      "States": [ { "Image": "images/eagles/Eagle_Gas_Airstrike", "TitleMode": "NoChange" } ]
     },    {
       "UUID": "com.user.helldivers2.Eagle_Napalm_Airstrike.key",
       "Name": "[Eagle] Eagle Napalm Airstrike",
