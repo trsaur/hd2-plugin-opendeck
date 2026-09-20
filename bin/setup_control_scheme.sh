@@ -3,13 +3,13 @@
 clear
 
 # Detect current settings
-if grep -q 'keydown w' ./keybindings.sh 2>/dev/null; then
+if grep -q 'keydown w' ./scripts/keybindings.sh 2>/dev/null; then
     CURRENT_MOVEMENT="WASD"
 else
     CURRENT_MOVEMENT="Arrow keys"
 fi
 
-if grep -q 'keydown Control_R' ./keybindings.sh 2>/dev/null; then
+if grep -q 'keydown Control_R' ./scripts/keybindings.sh 2>/dev/null; then
     CURRENT_CTRL="Right Ctrl"
 else
     CURRENT_CTRL="Left Ctrl"
@@ -63,7 +63,7 @@ else
 fi
 
 # --- Write keybindings.sh ---
-cat > ./keybindings.sh <<EOF
+cat > ./scripts/keybindings.sh <<EOF
 #!/bin/bash
 
 SL () {
