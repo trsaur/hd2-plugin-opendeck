@@ -39,8 +39,8 @@ M1 () {
 }
 
 CTRL () {
-	/usr/bin/xdotool keydown ctrl
+	/usr/bin/xdotool keydown Control_L
 	SL
-	/usr/bin/xdotool keyup ctrl
+	/usr/bin/xdotool keyup Control_L
 	SL
 }
