@@ -5,4 +5,5 @@ Stratagem Images from https://github.com/nvigneux/Helldivers-2-Stratagems-icons-
 Tested on Ulanzi D200 Deck
 
 Installed in: ~/.config/opendeck/plugins/com.user.helldivers2.sdPlugin
+
 Setup control scheme: ~/.config/opendeck/plugins/com.user.helldivers2.sdPlugin/bin/setup_control_scheme.sh
