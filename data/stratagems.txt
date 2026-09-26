@@ -101,4 +101,5 @@ Vehicle|EXO-55 Breakthrough Exosuit|images/vehicles/EXO-55_Breakthrough_Exosuit
 Vehicle|M-102 Gunner FRV|images/vehicles/M-102_Gunner_FRV
 Vehicle|M-103 Supply FRV|images/vehicles/M-103_Supply_FRV
 Vehicle|M-104 Incinerator FRV|images/vehicles/M-104_Incinerator_FRV
+Vehicle|TD-110 Maelstrom|images/vehicles/TD-110_Maelstrom
 Vehicle|TD-220 Bastion MK XVI|images/vehicles/TD-220_Bastion_MK_XVI

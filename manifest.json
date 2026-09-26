@@ -2,7 +2,7 @@
   "Name": "Helldivers 2",
   "Author": "TrSaur",
   "Description": "Helldivers 2 Stratagems",
-  "Version": "0.9.2",
+  "Version": "0.9.3",
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
@@ -627,6 +627,12 @@
       "Tooltip": "M-104 Incinerator FRV",
       "Icon": "images/vehicles/M-104_Incinerator_FRV",
       "States": [ { "Image": "images/vehicles/M-104_Incinerator_FRV", "TitleMode": "NoChange" } ]
+    },    {
+      "UUID": "com.user.helldivers2.TD-110_Maelstrom.key",
+      "Name": "[Vehicle] TD-110 Maelstrom",
+      "Tooltip": "TD-110 Maelstrom",
+      "Icon": "images/vehicles/TD-110_Maelstrom",
+      "States": [ { "Image": "images/vehicles/TD-110_Maelstrom", "TitleMode": "NoChange" } ]
     },    {
       "UUID": "com.user.helldivers2.TD-220_Bastion_MK_XVI.key",
       "Name": "[Vehicle] TD-220 Bastion MK XVI",
