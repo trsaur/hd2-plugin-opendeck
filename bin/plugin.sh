@@ -76,10 +76,10 @@ while true; do
     PACKET="${PACKET}}"
 
     # Strictly filter for keyDown events belonging to our plugin namespace
-    if [[ "$PACKET" =~ "keyDown" ]] && [[ "$BUFFER" =~ "com.user.helldivers2." || "$PACKET" =~ "com.user.helldivers2." ]]; then
+    if [[ "$PACKET" =~ "keyDown" ]] && [[ "$BUFFER" =~ "com.trsaur.helldivers2." || "$PACKET" =~ "com.trsaur.helldivers2." ]]; then
       
       # Extract the macro script name directly from the isolated JSON block
-      SCRIPT_NAME=$(echo "$PACKET" | sed -n 's/.*com\.user\.helldivers2\.\([^"'"'"']*\).*/\1/p' | tr -cd '[:print:]')
+      SCRIPT_NAME=$(echo "$PACKET" | sed -n 's/.*com\.trsaur\.helldivers2\.\([^"'"'"']*\).*/\1/p' | tr -cd '[:print:]')
 
       echo "[DETECTED] KeyDown event captured! Extracted name: '$SCRIPT_NAME'" >> "$LOG_FILE"
 

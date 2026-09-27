@@ -84,7 +84,7 @@ while IFS='|' read -r display_category display_name icon_path; do
     fi
 
     # Generate UUID using filename
-    uuid="com.user.helldivers2.${filename}.key"
+    uuid="com.trsaur.helldivers2.${filename}.key"
 
     # Check for duplicate UUID
     if [[ -n "${uuid_map[$uuid]}" ]]; then
@@ -108,6 +108,7 @@ while IFS='|' read -r display_category display_name icon_path; do
       "Name": "$name_field",
       "Tooltip": "$e_display_name",
       "Icon": "$e_icon_path",
+      "Controllers": ["Keypad"],
       "States": [ { "Image": "$e_icon_path", "TitleMode": "NoChange" } ]
     }
 EOF
@@ -135,14 +136,16 @@ NEW_VERSION=$(increment_version "$CURRENT_VERSION")
 cat > "$OUTPUT_FILE" <<EOF
 {
   "Name": "Helldivers 2",
+  "ID": "com.trsaur.helldivers2",
+  "Software": { "MinimumVersion": "2.14.0" },
   "Author": "TrSaur",
-  "Description": "Helldivers 2 Stratagems",
+  "Description": "Trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux. Supports all current stratagems, Eagles, Orbitals, Sentries, Support weapons, Backpacks and Vehicles.",
   "Version": "$NEW_VERSION",
   "SDKVersion": 2,
   "CodePathLin": "bin/run.sh",
   "Icon": "images/assets/hd2",
   "Category": "Helldivers 2",
-  "OS": [ { "Platform": "linux", "MinimumVersion": "1.0" } ],
+  "OS": [ { "Platform": "linux" } ],
   "Actions": [
 $actions_content
   ]
