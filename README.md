@@ -9,7 +9,7 @@ Supports all current stratagems, Eagles, Orbitals, Sentries, Support weapons, Ba
 Tested on Ulanzi D200 Deck, probably works on other Stream Deck devices, need more testing
 
 **Installation:**
-Download ZIP-archive from here: https://github.com/trsaur/hd2-plugin-opendeck/releases/tag/latest
+Download ZIP-archive from here: https://github.com/trsaur/hd2-plugin-opendeck/releases/download/v1.0.0/helldivers2-1.0.0-linux-x86_64.zip
 
 Unzip here: ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin
 
