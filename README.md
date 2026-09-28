@@ -17,8 +17,31 @@ Unzip here: ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin
 
 Choose from WASD/ArrowKeys + LeftCtrl/RightCtrl
 
+## Credits
+
+### Stratagem icons
+SVG icons are sourced from the
+[nvigneux/Helldivers-2-Stratagems-icons-svg](https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg)
+project by [@nvigneux](https://github.com/nvigneux).
+
+The author grants free use of these icons in other projects
+(see the source README). The upstream repository does not ship
+a formal LICENSE file; icons are used here with attribution to
+the original author.
+
 **OpenDeck software**: https://github.com/nekename/OpenDeck
 
-**Stratagem icons**: https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg
-
 **Helldivers 2 icon**: https://www.figma.com/community/file/1382854850516388445/helldivers-2-logo-stratagems
+
+## Disclaimer
+
+This plugin is an unofficial fan-made project.
+It is not affiliated with, endorsed by, or sponsored by
+Arrowhead Game Studios or Sony Interactive Entertainment.
+
+Helldivers 2 and all related names, marks, and assets are
+trademarks or registered trademarks of their respective owners.
+
+## License
+
+MIT. See [LICENSE](LICENSE) for details.
