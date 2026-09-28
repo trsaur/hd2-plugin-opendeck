@@ -1,4 +1,5 @@
 <img width="1076" height="812" alt="изображение" src="https://github.com/user-attachments/assets/599adcb8-6ab6-4bc7-a91e-592ab91497d6" />
+
 **Opendeck Linux Plugin for Helldivers 2 game**:
 
 trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux.
