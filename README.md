@@ -13,7 +13,9 @@ Tested on Ulanzi D200 Deck, probably works on other Stream Deck devices, need mo
 
 **Installation:**
 Download ZIP-archive from here: https://github.com/trsaur/hd2-plugin-opendeck/releases/tag/latest
+
 Unzip here: ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin
 
 **Setup control scheme**: run script ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin/bin/setup_control_scheme.sh
+
 Choose from WASD/ArrowKeys + LeftCtrl/RightCtrl
