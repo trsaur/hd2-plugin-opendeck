@@ -22,7 +22,7 @@ Tested on Ulanzi D200 Deck, probably works on other Stream Deck devices, need mo
 
 4. Restart OpenDeck
 
-5. Set up you stratagems using new buttons
+5. Set up your stratagems using new buttons
 
 
 ## Credits
@@ -40,7 +40,7 @@ the original author.
 
 ### Helldivers 2 icon:
 
-https://www.figma.com/community/file/1382854850516388445/helldivers-2-logo-stratagem
+https://www.figma.com/community/file/1382854850516388445/helldivers-2-logo-stratagems
 
 ### OpenDeck software:
 
