@@ -9,17 +9,25 @@ Supports all current stratagems, Eagles, Orbitals, Sentries, Support weapons, Ba
 Tested on Ulanzi D200 Deck, probably works on other Stream Deck devices, need more testing
 
 **Installation:**
-Download ZIP-archive from here: https://github.com/trsaur/hd2-plugin-opendeck/releases/download/v1.0.0/helldivers2-1.0.0-linux-x86_64.zip
+1. Download ZIP-archive from here:
+   https://github.com/trsaur/hd2-plugin-opendeck/releases/download/v1.0.0/helldivers2-1.0.0-linux-x86_64.zip
 
-Unzip here: ~/.config/opendeck/plugins
+2. Unzip here:
+   ~/.config/opendeck/plugins
 
-**Setup control scheme**: run script ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin/bin/setup_control_scheme.sh
+3. Run script:
+   ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin/bin/setup_control_scheme.sh
+   - Choose from WASD/ArrowKeys + LeftCtrl/RightCtrl -
 
-Choose from WASD/ArrowKeys + LeftCtrl/RightCtrl
+4. Restart OpenDeck
+
+5. Set up you stratagems using new buttons
+
 
 ## Credits
 
 ### Stratagem icons
+
 SVG icons are sourced from the
 [nvigneux/Helldivers-2-Stratagems-icons-svg](https://github.com/nvigneux/Helldivers-2-Stratagems-icons-svg)
 project by [@nvigneux](https://github.com/nvigneux).
@@ -29,9 +37,9 @@ The author grants free use of these icons in other projects
 a formal LICENSE file; icons are used here with attribution to
 the original author.
 
-**OpenDeck software**: https://github.com/nekename/OpenDeck
-
 **Helldivers 2 icon**: https://www.figma.com/community/file/1382854850516388445/helldivers-2-logo-stratagems
+
+**OpenDeck software**: https://github.com/nekename/OpenDeck
 
 ## Disclaimer
 
