@@ -2,7 +2,7 @@
 
 # Opendeck Linux Plugin for Helldivers 2 game:
 
-trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux.
+Trigger Helldivers 2 Stratagems directly from your Stream Deck device on Linux.
 
 Supports all current stratagems, Eagles, Orbitals, Sentries, Support weapons, Backpacks and Vehicles.
 
