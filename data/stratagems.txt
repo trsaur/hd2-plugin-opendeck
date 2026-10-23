@@ -63,6 +63,7 @@ Sentry|A/MG-43 Machine Gun Sentry|images/sentries/A_MG-43_Machine_Gun_Sentry
 Sentry|A/MLS-4X Rocket Sentry|images/sentries/A_MLS-4X_Rocket_Sentry
 Support|40-K Meltagun|images/support/40-K_Meltagun
 Support|AC-8 Autocannon|images/support/AC-8_Autocannon
+Support|AMW-20 Apex|images/support/AMW-20_Apex
 Support|APW-1 Anti-Materiel Rifle|images/support/APW-1_Anti-Materiel_Rifle
 Support|ARC-3 Arc Thrower|images/support/ARC-3_Arc_Thrower
 Support|B/FLAM-80 Cremator|images/support/B_FLAM-80_Cremator
@@ -79,6 +80,7 @@ Support|GL-21 Grenade Launcher|images/support/GL-21_Grenade_Launcher
 Support|GL-28 Belt-Fed Grenade Launcher|images/support/GL-28_Belt-Fed_Grenade_Launcher
 Support|GL-52 De-Escalator|images/support/GL-52_De-Escalator
 Support|GR-8 Recoilless Rifle|images/support/GR-8_Recoilless_Rifle
+Support|LAS-44 Nova|images/support/LAS-44_Nova
 Support|LAS-98 Laser Cannon|images/support/LAS-98_Laser_Cannon
 Support|LAS-99 Quasar Cannon|images/support/LAS-99_Quasar_Cannon
 Support|M-1000 Maxigun|images/support/M-1000_Maxigun
