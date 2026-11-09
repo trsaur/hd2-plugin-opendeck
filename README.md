@@ -11,13 +11,13 @@ Tested on Ulanzi D200 Deck, probably works on other Stream Deck devices, need mo
 ## Installation:
 
 1. Download ZIP-archive from here:
-   https://github.com/trsaur/hd2-plugin-opendeck/releases/download/v1.0.1/helldivers2-1.0.1-linux-x86_64.zip
+   https://github.com/trsaur/hd2-plugin-opendeck/releases/download/v1.0.2/helldivers2-1.0.2-linux-x86_64.zip
 
 2. Unzip here:
    ~/.config/opendeck/plugins
 
 3. Run script:
-   ~/.config/opendeck/plugins/com.trsaur.helldivers2.sdPlugin/bin/setup_control_scheme.sh
+   ~/.config/opendeck/plugins/com.github.trsaur.helldivers2.sdPlugin/bin/setup_control_scheme.sh
    - Choose from WASD/ArrowKeys + LeftCtrl/RightCtrl
 
 4. Restart OpenDeck
